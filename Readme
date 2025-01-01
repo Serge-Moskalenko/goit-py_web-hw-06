@@ -1,0 +1,28 @@
+goit-py_web-hw-06
+🔧 Project Description
+This project provides a PostgreSQL database deployed using Docker, along with Python scripts for working with the database, including executing SQL queries.
+
+🔁 Installation and Setup
+1. 🔒 Requirements
+Docker installed on your machine.
+Docker Compose for container management.
+2. 🛠️ Installation
+Clone the repository:
+bash
+git clone https://github.com/your-username/goit-py_web-hw-06.git
+cd goit-py_web-hw-06
+Create and configure the containers:
+bash
+docker-compose up -d
+This will create and start a PostgreSQL container. SQL scripts located in the db/ folder will be executed automatically.
+3. 🗒 Executing Queries
+Place SQL queries in the sql_request/ folder.
+Use the Python script to execute the queries.
+Example of executing a query from a file:
+bash
+poetry run python py_request/query_1.py
+
+🛠️ Technologies Used
+Python
+PostgreSQL
+Docker / Docker Compose
